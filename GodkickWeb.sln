@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodkickWeb", "GodkickWeb\GodkickWeb.csproj", "{9560BD16-EBC4-4B7D-8C3A-81554CE6541E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodkickWeb.Tests", "GodkickWeb.Tests\GodkickWeb.Tests.csproj", "{061A51D1-520E-4C15-A106-C7CEDDF037CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9560BD16-EBC4-4B7D-8C3A-81554CE6541E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9560BD16-EBC4-4B7D-8C3A-81554CE6541E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9560BD16-EBC4-4B7D-8C3A-81554CE6541E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9560BD16-EBC4-4B7D-8C3A-81554CE6541E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061A51D1-520E-4C15-A106-C7CEDDF037CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061A51D1-520E-4C15-A106-C7CEDDF037CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061A51D1-520E-4C15-A106-C7CEDDF037CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061A51D1-520E-4C15-A106-C7CEDDF037CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD8EDAB7-DDB6-4ED3-918D-1374189D992C}
+	EndGlobalSection
+EndGlobal

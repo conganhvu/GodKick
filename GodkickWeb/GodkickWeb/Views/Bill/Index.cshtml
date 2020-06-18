@@ -1,0 +1,47 @@
+﻿@model IEnumerable<GodkickWeb.Models.Bill>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="text-align:center"><b>Bill List</b></h2>
+<div>
+    <h5>
+        <b>
+            Search ID
+        </b>
+    </h5>
+</div>
+
+<form action="@Url.Action("Search", "Bill")" method="get">
+    <input type="search" name="keyword"/>
+    <input type="submit" value="Search" class="btn btn-primary" style="background: black; color: white"/>
+</form>
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Times</th>
+        <th>Ship_State</th>
+        <th>Pay_State</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.id
+            </td>
+           
+            <td>
+                @item.order_day
+            </td>
+            <td>
+                <input type="checkbox" checked />
+            </td>
+            <td>
+                <input type="checkbox" checked/>
+            </td>
+        </tr>
+    }
+
+</table>
